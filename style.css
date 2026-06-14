@@ -566,3 +566,139 @@ header{
 .stats p{
     color:white;
 }
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+
+@media screen and (max-width: 992px){
+
+    nav{
+        flex-direction:column;
+        gap:15px;
+    }
+
+    nav ul{
+        justify-content:center;
+        flex-wrap:wrap;
+    }
+
+    .hero h2{
+        font-size:3rem;
+    }
+
+    section{
+        padding:80px 7%;
+    }
+
+    .services-grid{
+        grid-template-columns:1fr 1fr;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+
+    .logo img{
+        height:90px;
+    }
+
+    nav ul{
+        gap:12px;
+    }
+
+    nav a{
+        font-size:14px;
+    }
+
+    .hero{
+        height:85vh;
+    }
+
+    .overlay{
+        padding:25px;
+        margin:20px;
+    }
+
+    .hero h2{
+        font-size:2.2rem;
+        line-height:1.2;
+    }
+
+    .hero p{
+        font-size:1rem;
+    }
+
+    .btn{
+        padding:14px 25px;
+        font-size:15px;
+    }
+
+    section{
+        padding:70px 5%;
+    }
+
+    section h2{
+        font-size:2rem;
+    }
+
+    .about-content p{
+        font-size:1rem;
+        line-height:1.8;
+    }
+
+    .services-grid{
+        grid-template-columns:1fr;
+    }
+
+    .card{
+        min-height:auto;
+        padding:25px;
+    }
+
+    .gallery{
+        grid-template-columns:1fr;
+    }
+
+    .gallery img{
+        height:280px;
+    }
+
+    .stats{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .stats div{
+        width:100%;
+        max-width:300px;
+    }
+
+    form{
+        width:100%;
+    }
+
+}
+
+@media screen and (max-width:480px){
+
+    .hero h2{
+        font-size:1.8rem;
+    }
+
+    .hero p{
+        font-size:0.95rem;
+    }
+
+    section h2{
+        font-size:1.7rem;
+    }
+
+    .card h3{
+        font-size:1.4rem;
+    }
+
+    .card p{
+        font-size:1rem;
+    }
+
+}
