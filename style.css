@@ -23,14 +23,20 @@ body{
 }
 
 /* HEADER */
-
 header{
     background:linear-gradient(
         90deg,
         #5C3B28,
         #8B5E3C
     );
+
+    position:sticky;
+    top:0;
+    z-index:1000;
+
+    box-shadow:0 2px 15px rgba(0,0,0,.2);
 }
+
 
 nav{
     display:flex;
@@ -159,11 +165,11 @@ section h2{
     box-shadow:0 10px 25px rgba(0,0,0,.1);
 
     transition:.4s ease;
-cursor:pointer;
+    cursor:pointer;
 }
-
 .card:hover{
-    transform:translateY(-5px);
+    transform:translateY(-10px);
+    box-shadow:0 15px 35px rgba(0,0,0,.2);
 }
 .card h3{
     font-size:1.8rem;
