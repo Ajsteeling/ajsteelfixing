@@ -158,7 +158,8 @@ section h2{
 
     box-shadow:0 10px 25px rgba(0,0,0,.1);
 
-    transition:.3s;
+    transition:.4s ease;
+cursor:pointer;
 }
 
 .card:hover{
