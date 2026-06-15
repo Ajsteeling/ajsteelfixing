@@ -785,3 +785,25 @@ header{
     height:250px;
     object-fit:cover;
 }
+@media(max-width:768px){
+
+    .stats{
+        width:100%;
+        gap:15px;
+    }
+
+    .stats div{
+        width:100%;
+        max-width:100%;
+        padding:20px;
+    }
+
+    .stats h3{
+        font-size:2rem;
+    }
+
+    .stats p{
+        font-size:0.95rem;
+    }
+
+}
