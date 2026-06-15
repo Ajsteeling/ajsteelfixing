@@ -881,15 +881,26 @@ html, body{
 }
 .hero-small{
     margin-top:40px;
+    padding-top:20px;
+    border-top:1px solid rgba(255,255,255,0.3);
     color:white;
     font-size:1rem;
     font-weight:600;
-    line-height:1.8;
+    line-height:2;
 }
 @media(max-width:768px){
 
     .hero-small{
         font-size:0.9rem;
+    }
+
+}
+@media(max-width:768px){
+
+    .hero-small{
+        margin-top:35px;
+        font-size:0.95rem;
+        line-height:2;
     }
 
 }
