@@ -815,7 +815,16 @@ html, body{
 }
 /* FIX PER TELEFON */
 
-@media(max-width:768px){
+/* MOBILE STATS FIX */
+
+@media screen and (max-width:768px){
+
+    .about-stats-wrapper{
+        display:flex;
+        flex-direction:column;
+        gap:25px;
+        padding:40px 5%;
+    }
 
     .stats{
         width:100%;
@@ -828,15 +837,17 @@ html, body{
         width:100%;
         max-width:100%;
         padding:20px;
-        box-sizing:border-box;
+        margin:0;
     }
 
+    .stats h3,
     .counter{
         font-size:2rem !important;
+        line-height:1.2;
     }
 
-}
+    .stats p{
+        font-size:1rem;
+    }
 
-html, body{
-    overflow-x:hidden;
 }
