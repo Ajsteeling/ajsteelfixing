@@ -879,3 +879,17 @@ html, body{
     }
 
 }
+.hero-small{
+    margin-top:25px;
+    color:white;
+    font-size:1rem;
+    font-weight:600;
+    line-height:1.8;
+}
+@media(max-width:768px){
+
+    .hero-small{
+        font-size:0.9rem;
+    }
+
+}
