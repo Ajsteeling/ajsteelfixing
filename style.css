@@ -851,3 +851,31 @@ html, body{
     }
 
 }
+@media screen and (max-width:768px){
+
+    .about-stats-wrapper{
+        flex-direction:column;
+        padding:30px 15px;
+        gap:20px;
+    }
+
+    .about-banner{
+        width:100%;
+        max-width:100%;
+        margin:0 auto;
+        display:block;
+    }
+
+    .stats{
+        width:100%;
+        flex-direction:column;
+        gap:15px;
+    }
+
+    .stats div{
+        width:100%;
+        max-width:100%;
+        margin:0;
+    }
+
+}
