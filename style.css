@@ -709,3 +709,28 @@ header{
     }
 
 }
+/* CALL TO ACTION */
+
+.cta{
+    text-align:center;
+    padding:100px 10%;
+    background:#8B5E3C;
+    color:white;
+}
+
+.cta h2{
+    color:white;
+    margin-bottom:20px;
+    font-size:2.5rem;
+}
+
+.cta p{
+    margin-bottom:30px;
+    font-size:1.1rem;
+    color:white;
+    line-height:1.8;
+}
+
+.cta .btn{
+    display:inline-block;
+}
