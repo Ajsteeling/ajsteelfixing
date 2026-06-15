@@ -98,7 +98,9 @@ nav a:hover{
 .hero h2{
     font-size:4rem;
 }
-
+.hero h2{
+    white-space:normal;
+}
 .hero p{
     font-size:1.3rem;
     margin-bottom:30px;
@@ -810,4 +812,31 @@ header{
 html, body{
     overflow-x:hidden;
     width:100%;
+}
+/* FIX PER TELEFON */
+
+@media(max-width:768px){
+
+    .stats{
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        gap:15px;
+    }
+
+    .stats div{
+        width:100%;
+        max-width:100%;
+        padding:20px;
+        box-sizing:border-box;
+    }
+
+    .counter{
+        font-size:2rem !important;
+    }
+
+}
+
+html, body{
+    overflow-x:hidden;
 }
